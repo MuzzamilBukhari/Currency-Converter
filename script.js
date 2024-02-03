@@ -207,5 +207,5 @@ btn.addEventListener("click", async (evt) => {
 const updateMsg = (data) => {
     let result = data[(toCurr.value).toLowerCase()] * amount.value;
     let msg = document.querySelector(".msg");
-    msg.innerText = `${amount.value} ${fromCurr.value} = ${Math.round(result)} ${toCurr.value}`;
+    msg.innerText = `${amount.value} ${fromCurr.value} = ${result} ${toCurr.value}`;
 }
